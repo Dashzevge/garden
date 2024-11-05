@@ -11,7 +11,6 @@ import java.util.Optional;
 @Repository
 public interface PlantRepository extends JpaRepository<Plant,Integer> {
 
-    //@Query("select u from 'Plant' u order by u.name")
     List<Plant> findAllByOrderByName();
    // @Query("select u from Plant u order by u.date")
     List<Plant> findAllByOrderByDate();

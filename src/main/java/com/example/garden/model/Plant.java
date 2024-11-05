@@ -43,7 +43,7 @@ public class Plant {
                 "name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 ", date=" + date +
-                ", garden=" + garden +
+                ", garden=" + garden.getName() +
                 '}';
     }
 }

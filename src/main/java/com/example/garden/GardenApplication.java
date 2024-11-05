@@ -42,6 +42,8 @@ public class GardenApplication {
             plantService.addPlant(plant2);
             plantService.addPlant(plant3);
             System.out.println(plantService.findAll());
+            System.out.println(plantService.findAllOrderByName());
+            System.out.println(plantService.findAllOrderByDate());
         };
     }
 }
